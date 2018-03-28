@@ -1,0 +1,154 @@
+<style type="text/css">
+body{
+
+}
+ .container{
+ 	position: absolute;
+ 	top:13%;
+ 	left:26.1%;
+     width:48.2%;
+     height:80%;
+     background-color:grey;
+     border-color: black;
+ }
+ .container .head{
+ 	position: absolute;
+    background-color:rgb(170, 255, 128);
+    width:100%;
+    height:10%;
+ }
+ .container .head .welcome{
+ 	position: absolute;
+ 	margin:2%;
+     font-size:1vw;
+     font-family: Arial;
+     color:red;
+     float: left;
+
+ }
+ .container .head .logout {
+ 	position: absolute;
+ 	color:red;
+ 	left:60%;
+ 	font-size: 2.5vmin;
+  font-weight: bold;
+ 	text-decoration: none;
+  cursor: pointer;
+ }
+ .container .head .clearchat {
+  position: absolute;
+  color:red;
+  left:80%;
+  font-size: 2.5vmin;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+ }
+ .container .chat_content{
+  position:absolute;
+ 	width:100%;
+  top:10%;
+ 	height:77%;
+  overflow-y: auto;
+  overflow-x: hidden;
+ 	background-color:rgb(0, 38, 77);
+ }
+ .container .chat_content::-webkit-scrollbar
+ {
+  display: none;    /* to allow scrollbar hidden but able to scroll */
+ }
+ .container .chat_content .chat_con{
+    width:100%;
+    height:8%;
+    /*background-color:skyblue;*/
+ }
+ .container .chat_content .chat_con #a{
+    font-family:italic;
+    font-size:2.5vmin; 
+ }
+ .container .chat_content .chat_con #b{
+   font-family:sans-serif;
+   font-size:2.3vmin;
+ }
+ .container .chat_content .chat_con #c{
+    font-size:2.5vmin;
+    float: right;
+ }
+ .container .entermsg{
+ 	position: absolute;
+ 	top:86%;
+ 	width:100%;
+ 	height:15%;
+ 	background-color:rgb(170, 255, 128);
+ 	border-color: yellow;
+ 	font-family:sans-serif;
+ 	color:red;
+ 	font-size:2.3vmin;
+ }
+ .container .entermsg #txt {
+      position: absolute;
+      top:25%;
+      left:10%;
+      width:70%;
+      height:40%;
+ }
+ .container .entermsg #btn{
+ 	position: absolute;
+ 	top:25%;
+ 	right:5%;
+ 	width:10%;
+ 	height:40%;
+ 	font-size:2.0vmin;
+ }
+ .outerbox{
+  width:100%;
+  height:100%;
+  
+ }
+ .outerbox #un{
+      position: absolute;
+      font-size: 20px;
+      top: 25%;
+      left:42%;
+      width:19%;
+      border: none;
+ }
+ .outerbox #up{
+  position: absolute;
+      font-size: 20px;
+      top:47%;
+      left:40%;
+      border:none;
+      width:19%;
+      text-align: right;
+ }
+  .outerbox #us{
+    position: absolute;
+      font-size: 20px;
+      top: 70%;
+      left:40%;
+      width:19%;
+      border:none;
+      background-color:white;
+ }
+
+ .outercontainer{
+  margin-top:15%;
+  margin-left:10%;
+  width:50%;
+  height:50%;
+  padding:2%;
+ 
+
+ }
+ .outercontainer #regbtn{
+    font-size:2.0vw;
+    margin-left:0%;
+    background-color: rgb(0, 38, 77);
+    color: rgb(0, 255, 0);
+    border-color: lightgreen;
+   border-radius:4px;
+    width:19.5vw;
+ }
+
+</style>
